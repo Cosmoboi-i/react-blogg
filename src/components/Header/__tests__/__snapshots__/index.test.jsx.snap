@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render Footer component 1`] = `
+<DocumentFragment>
+  <div
+    class="header"
+  >
+    <div
+      class="content"
+    >
+      <div
+        class="banner"
+      >
+        <h2
+          class="heading"
+        >
+          The Artifact
+        </h2>
+        <div
+          class="subheading"
+        >
+          Culture & Art Blog
+        </div>
+      </div>
+      <div
+        class="navbar"
+      >
+        <div>
+          Blog
+        </div>
+        <div>
+          About
+        </div>
+        <div>
+          Contact
+        </div>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

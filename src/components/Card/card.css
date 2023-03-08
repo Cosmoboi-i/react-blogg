@@ -1,0 +1,76 @@
+.card {
+  height: 500px;
+  width: 350px;
+  border: 1px solid rgb(198, 198, 198);
+  margin: 1.2em 0;
+}
+
+.image {
+  height: 280px;
+  width: 350px;
+  border: 0 none;
+}
+
+.card-content {
+  display: flex;
+  flex-flow: column wrap;
+
+  padding: 0.4em 0.6em;
+  font-weight:lighter;
+}
+
+.date-time {
+  display: flex;
+  justify-content: space-between;
+
+  color: rgb(198, 198, 198);
+  font-size: smaller;
+}
+
+.card-text {
+  padding: 0 0.4em 0 0;
+  
+}
+
+.card-heading {
+  font-size: x-large;
+  margin: 0.6em 0;
+  height: 2.4em;
+  overflow: hidden;              
+  text-overflow: ellipsis;
+}
+
+.card-desc {
+  font-size: normal;
+  color: rgb(156, 156, 156);
+  height: 3.5em;
+  width: 320px;
+  overflow: hidden;              
+  text-overflow:    ellipsis;
+}
+
+.hr {
+  width: 100%;
+  margin: 0.6em 0;
+  border: 0.5px solid rgb(198, 198, 198);
+}
+
+.clap {
+  display: flex;
+  align-items: center;
+}
+
+.card-reaction {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-reaction img {
+  height:1.5em;
+  margin-right: 0.1em;
+}
+
+.clap span {
+  align-self: center;
+  color: rgb(157, 157, 157);
+}

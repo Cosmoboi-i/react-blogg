@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card should render the Card 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <img
+      class="image"
+      src="abstract.png"
+    />
+    <div
+      class="card-content"
+    >
+      <div
+        class="date-time"
+      >
+        <div>
+          NaN undefined, NaN
+        </div>
+        <div>
+          2 mins
+        </div>
+      </div>
+      <div
+        class="card-text"
+      >
+        <div
+          class="card-heading"
+        >
+          The future of abstract art and the culture ...
+        </div>
+        <div
+          class="card-desc"
+        >
+          Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your...
+        </div>
+      </div>
+      <hr
+        class="hr"
+      />
+      <div
+        class="card-reaction"
+      >
+        <div
+          class="clap"
+          data-testid="clap"
+        >
+          <img
+            alt="clap"
+            src="./assets/Icons/clapping.svg"
+          />
+          <span
+            data-testid="clap-count"
+          >
+            10
+          </span>
+        </div>
+        <img
+          alt="heart"
+          class="card-heart"
+          src="./assets/Icons/heart-black.svg"
+        />
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

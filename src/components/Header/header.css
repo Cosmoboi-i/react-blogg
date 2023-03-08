@@ -1,0 +1,41 @@
+.header {
+  background: black;
+  color: white;
+  height: 12%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.content {
+  width: 70%;
+  height: 100%;
+  justify-self: center;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.heading {
+  margin: 0;
+  padding: 0.1em;
+  font-weight: 100;
+}
+
+.subheading {
+  font-style: italic;
+}
+
+.banner {
+  align-self: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+
+  align-self: flex-end;
+  width: 40%;
+  margin-bottom: 0.3em;
+}
